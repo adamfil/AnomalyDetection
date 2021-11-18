@@ -19,7 +19,7 @@ The script for the modelling is based on following steps:
 `cd src/data`
 4. Extract relevant fields from XML into dictionaries per station \
 `python xml2dict.py`
-5. Transform the dictionaries into DataFrames which the notebook '02-CD-Modeling' takes as input: \
+5. Transform the dictionaries into DataFrames which the notebook notebooks take as input: \
 `python dict2tabular.py`
 6. Execute the modeling steps in the notebook: 
     - Start the jupyter notebook server: 
