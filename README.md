@@ -42,8 +42,6 @@ Project Organization
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- Tabular data for modeling.
     │   └── raw            <- The original, immutable data dump.
-    │    
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          
     │   ├── TrainingTemplate.ipynb
