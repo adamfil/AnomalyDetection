@@ -75,8 +75,9 @@ Project Organization
     │   └── historic_getter.sql    <- Script to get all data from Arkeon database
     │
     ├── notebooks          
-    │   ├── TrainingTemplate.ipynb
-    │   └── TestingTemplate.ipynb
+    │   ├── Metrics.ipynb
+    │   └── Train_and_test.ipynb
+    │   └── Detection.ipynb
     │
     ├── src               
     │   └── data           <- Scripts preprocessing the data from XML 
