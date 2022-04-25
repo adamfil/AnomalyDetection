@@ -18,9 +18,9 @@ If you are using data which is already extracted and in XML format, copy it into
 
 You will now have the necessary XML files in 'data/raw/eccl_ml_qa/all_stations/deploy/' to proceed.
 
-Training and Metrics
+Metrics 
 ------------
-This section is aimed at running TrainingTemplate.ipynb. Running this will provide you with metrics for the given data, as well as dataframes which can be used to train machine learning algorithms on.
+This section is aimed at running Metrics.ipynb. Running this will provide you with metrics for the given data, as well as dataframes which can be used to train machine learning algorithms on.
 
 The script for the modelling is based on following steps:
 1. Create conda environment with all necessary packages installed based on environment.yml. Only necessary at the first time: \
@@ -41,16 +41,25 @@ The script for the modelling is based on following steps:
     - Start the jupyter notebook server: 
         1. Locally: `jupyter notebook`
         2. Remote: [Link](https://medium.com/@apbetahouse45/how-to-run-jupyter-notebooks-on-remote-server-part-1-ssh-a2be0232c533) to article with description.
-    - Open the file 'notebooks/TrainingTemplate.ipynb' in your browser and executed the steps chronologically (Shift+Return)
+    - Open the file 'notebooks/Metrics.ipynb' in your browser and executed the steps chronologically (Shift+Return)
 
-Testing
+Training and Testing
 ------------
-Prerequisites: The notebook assumes that steps 1-6 from above have been executed.
+Prerequisites: The notebook assumes that steps 1-6 from above (Metrics) have been executed.
 1. Execute the testing steps in the notebook: 
     - Start the jupyter notebook server: 
         1. Locally: `jupyter notebook`
         2. Remote: [Link](https://medium.com/@apbetahouse45/how-to-run-jupyter-notebooks-on-remote-server-part-1-ssh-a2be0232c533) to article with description.
-    - Open the file 'notebooks/TestingTemplate.ipynb' in your browser and executed the steps chronologically (Shift+Return)
+    - Open the file 'notebooks/Train_and_test.ipynb' in your browser and executed the steps chronologically (Shift+Return)
+
+Live Detection
+------------
+Prerequisites: The notebook assumes that the above (Training and Testing) has been executed.
+1. Execute the testing steps in the notebook: 
+    - Start the jupyter notebook server: 
+        1. Locally: `jupyter notebook`
+        2. Remote: [Link](https://medium.com/@apbetahouse45/how-to-run-jupyter-notebooks-on-remote-server-part-1-ssh-a2be0232c533) to article with description.
+    - Open the file 'notebooks/Detection.ipynb' in your browser and executed the steps chronologically (Shift+Return)
 
 Project Organization
 ------------
